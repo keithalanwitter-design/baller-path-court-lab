@@ -1,0 +1,28 @@
+{
+  "name": "baller-path-quest",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Baller Path: Court Lab — a browser basketball side quest built with React, Vite and Babylon.js.",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^9.27.1",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "@types/react": "^19.2.1",
+    "@types/react-dom": "^19.2.1",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "5.6.3",
+    "vite": "^7.1.7"
+  },
+  "packageManager": "pnpm@10.28.0"
+}
